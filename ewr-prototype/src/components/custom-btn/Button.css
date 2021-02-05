@@ -1,0 +1,18 @@
+
+.button button{
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    transition: all .1s ease;
+    font-weight: 700;
+}
+
+.button button:hover {
+    transform:translateY(-2px);
+    color: crimson;
+    
+}
+.button button:active {
+    transform: translateY(2px);
+}

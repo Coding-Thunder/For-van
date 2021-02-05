@@ -1,0 +1,51 @@
+.home {
+    width: 100%;
+}
+.banner__image {
+    height: 800px;
+    top: -100px;
+    position: relative;
+    background-image: url("https://source.unsplash.com/random/1900x800");
+    object-fit: contain;
+}
+.banner__image img{
+    width: 100vw;
+    display: flex;
+    height: 800px;
+    background-size: contain;
+    position: relative;
+}
+.banner__content {
+    color: #0a043c;
+    position: absolute;
+    width: 100%;
+    bottom: 30%;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px; 
+    height: fit-content;
+    padding: 10px;
+}
+.card__content img {
+    width: 250px;
+}
+.card__content img,
+.card__content h1{
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+

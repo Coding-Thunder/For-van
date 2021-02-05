@@ -1,0 +1,21 @@
+.partner {
+    display: flex;
+    flex-direction: column;
+}
+.partner h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.partner-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.partner-info img {
+    margin-bottom: 5rem;
+    width: 180px;
+    border-radius: 50%;
+    border: 5px solid #eb5e0b;
+    box-shadow: 0px 1px 2px black;
+}
